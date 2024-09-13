@@ -79,6 +79,7 @@ document.getElementById('addProjectForm').addEventListener('submit', async funct
             document.getElementById('myModal_addProject').close();
 
                 ajouterProjetALaGalerie(newProject);
+                //TODO: cette fonction n'est pas implémentée, il faut la créer
                    rechargerGalerie();
                
             } else {
@@ -113,7 +114,7 @@ document.getElementById('triggerFileInput').addEventListener('click', function()
 
 // Fonction pour ajouter dynamiquement le nouveau projet à la galerie
 function ajouterProjetALaGalerie(projet) {
-    // Ajouter le code pour ajouter le projet à la galerie
+    //TODO: Ajouter le code pour ajouter le projet à la galerie
     console.log('Nouveau projet ajouté :', projet);
 }
 
