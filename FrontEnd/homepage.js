@@ -1,3 +1,5 @@
+import {loadprojects} from "./modale supprimer"
+
 const requestOptions = {
   method: "GET",
   redirect: "follow"
@@ -95,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function closeModal(modal) {
         modal.close();
         checkIfBackdropShouldClose();
+        loadProjects();
     }
 
     // Fonction pour vérifier si le fond sombre doit être fermé
